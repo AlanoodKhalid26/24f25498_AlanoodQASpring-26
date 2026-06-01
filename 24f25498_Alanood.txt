@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class TouristMonitor {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int tourists;
+        int choice;
+
+        System.out.print("Enter tourist count: ");
+        tourists = sc.nextInt();
+
+        if(tourists > 1000)
+            System.out.println("High Tourist Flow");
+        else
+            System.out.println("Normal Tourist Flow");
+
+        System.out.println("1. View Count");
+        System.out.println("2. Generate Report");
+
+        choice = sc.nextInt();
+
+        switch(choice)
+        {
+            case 1:
+                System.out.println("Tourist Count = " + tourists);
+                break;
+
+            case 2:
+                System.out.println("Report Generated");
+                break;
+
+            default:
+                System.out.println("Invalid Option");
+        }
+    }
+}

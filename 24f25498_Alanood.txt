@@ -11,10 +11,11 @@ public class TouristMonitor {
         System.out.print("Enter tourist count: ");
         tourists = sc.nextInt();
 
-        if(tourists > 1000)
-            System.out.println("High Tourist Flow");
-        else
-            System.out.println("Normal Tourist Flow");
+       if(tourists > 1000)
+    System.out.println("High Tourist Flow");
+else
+    System.out.println("Low Tourist Flow");
+
 
         System.out.println("1. View Count");
         System.out.println("2. Generate Report");

@@ -29,7 +29,7 @@ else
                 break;
 
             case 2:
-                System.out.println("Report Generated");
+                System.out.println("Seasonal Report Generated");
                 break;
 
             default:

@@ -41,7 +41,7 @@ else
                 break;
 
             default:
-                System.out.println("Invalid Option");
+                System.out.println("Invalid Option. Please select 1 or 2.");
         }
     }
 }
